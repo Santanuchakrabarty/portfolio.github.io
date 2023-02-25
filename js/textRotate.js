@@ -9,7 +9,7 @@ var theForm = document.getElementById( 'theForm' );
           classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
           //console.log("Submitted Request");
 
-          var link="https://docs.google.com/forms/d/e/1FAIpQLSd1JpwNaH-iBJ80_9PvKD3zPXbIGor10O6msHvIIP1MRgfbcw/formResponse";
+          var link="https://docs.google.com/forms/d/1_dJLJE7kM3BOSukmMmHOHA9kMDMd0KPbk72NWQje6QU/prefill";
           jQuery.ajax({
                 url: link,
                 data: {"entry.2111170142" : $("#q2").val() , "entry.2040235095" : $("#q3").val() , "entry.72030663" : $("#q1").val() },
